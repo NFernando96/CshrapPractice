@@ -17,10 +17,10 @@
         static void Main()
         {
             //SumDel sumHandler = Sum;
-            SumDel sumHandler = delegate (int a, int b)
-            {
-                return (a + b);
-            };
+            //SumDel sumHandler = delegate (int a, int b)
+            //{
+            //    return (a + b);
+            //};
             PrintSum(10, 23, sumHandler);
         }
     }
